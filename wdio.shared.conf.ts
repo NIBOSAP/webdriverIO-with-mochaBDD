@@ -114,7 +114,7 @@ export const config: WebdriverIO.Config = {
     framework: 'mocha',
     mochaOpts: {
       ui: 'bdd',
-      timeout: 90000,
+      timeout: 60000,
       //compilers: ['js:@babel/register'],
     },
     //

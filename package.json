@@ -32,6 +32,7 @@
     "test-browserstack": "wdio wdio.browserstack.conf.ts",
     "test-lambdatest": "wdio wdio.lambdatest.conf.ts",
     "test-local": "wdio  wdio.local.conf.ts",
+    "test-timeout": "wdio  wdio.local.conf.ts --spec ./test/specs/timeout-test.spec.ts",
     "test-mobile": "wdio wdio.appium.conf.ts"
   },
   "devDependencies": {
