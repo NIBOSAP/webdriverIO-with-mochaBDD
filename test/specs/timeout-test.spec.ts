@@ -9,11 +9,11 @@ import assert       from 'assert';
 
 describe('test timeout',  () =>  {
     it('Test timeout mocha', async () =>  {
-        console.log('this.timeout before set timeout: ', this.test._timeout)
+        console.log('this.timeout before set timeout: ', this.test._timeout);
 
         this.timeout(120000); // 2min
 
-        console.log('this.timeout after set timeout: ', this.test._timeout)
+        console.log('this.timeout after set timeout: ', this.test._timeout);
 
         await browser.pause(90000); // 1m30sec
     });
